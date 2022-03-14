@@ -1,0 +1,137 @@
+<DOCTYPE! html>
+    <head>
+        <title>HTML STRUCTURES</title>
+        <link href='style.css' rel='stylesheet'>
+        <style type=text/css>
+                
+                body {
+                    background-color: rgb(141, 141, 228);
+                }
+        </style>
+    </head>
+    <body  >
+        
+        <h1>The structure of a basic <strong>html page</strong>is as follows</h1>
+        <br>
+        <ol class="list">
+            <li>DOCTYPE!</li>
+            <li>head</li>
+            <li>title</li>
+            <li>title</li>
+            <li style="color: yellow;">body</li>
+            <li>body</li>
+        </ol>
+        </br>
+          <h1>Opening tags &lt; &gt; almost always require a closing tag &lt;/&gt;</h1>
+        <ul class="list"><li>&lt;h1&gt; to &lt;h6&gt;   can be used to change test size <strong>h1 <em>is the largest</em></strong></li>
+
+            <li>br    inserts white space under text - <strong>no closing tag required</strong></li>
+            <li>p     creates a paragraph</li>
+            <li>div   creates a larger container for related groups of paragraphs, allows styling to be added, can also contain images</li>
+            <li>strong   makes text bold</li>
+            <li>em       make text italic</li>
+            <li>span     creates a space in a line of text- <strong>doesnt seem to work</strong></li>
+            <li>ol       <em>ordered list</em> ordered list create a list of bullets item using li</li>
+            <li>ul       <em>unordered list</em> creates a list of number item using li</li>
+            <li>li       <em>list item</em> used inside ol and ul </li>
+            <li>img      to insert an image. It can use a / to close the tag -<strong>no closing tag required</strong></li>
+            <li>video    to insert a video. It requires a closing tag</li>
+            <li>href     to insert a hyperlink to another webpage or ??????</li>
+        </ul>
+        <br>
+        <h1>Attribute</h1>
+        <p>Attribute can be added to an element. An attribute has a <strong>Name and a Value</strong></p>
+        <ul class="list">
+            <li>id  in the form id="<em>value</em>"</li>
+            <li>scr=  used with img and video to provide location of the media </li>
+            <li>alt=  used with img to provide a description of the image incase the image is not there or cannot be seen</li>
+            <li>width= used with video to size the window</li>
+            <li>height= used with video to size the window</li>
+            <li>controls adds play and volume controls</li>
+            <li>a   an anchor or pointer used with href</li>
+        </ul>
+
+
+        <br>
+        <br>
+        <table>
+            <tr>
+                <th>Bear colours</th>
+            </tr>
+            <tr>
+                <td>Black</td>
+            </tr>
+            <tr>
+                <td>Brown</td>
+            </tr>
+            <tr>
+                <td>Yellow</td>
+            </tr>
+        </table>
+        <br>
+        Enter the colour of bear you prefer
+        <form>
+            <select name="Favourie_colour_bear">
+
+                <option value="BLACK">Black</option>
+                <option value="BROWN">Brown</option>
+                <option value="YELLOW">Yellow</option>
+                <option value="UNSURE">None of the above</option>
+
+            </select>
+
+            <br><br>
+            <Label for="Favourite_bear_text">/n Write your Favourite colour bear below</Label>
+            <input type="text" name="Favourite_bear_text" value="Enter Favourite Colour Bear Here">
+            <br>
+            <br>
+            <p>Tick your favourite colour</p>
+            <label for="black">black</label>
+            <input id="black" type="checkbox" value="black">
+            <br>
+            <br>
+            <label for="brown">brown</label>   
+            <input id="brown" type="checkbox" value="brown">
+            <br><br>
+            <label for="yellow">Yellow</label>
+            <input id="yellow" type="checkbox"value="yellow">
+
+            <br>
+            <br>
+            <label for="brown_radio">Black</label>
+            <input id="radio_bear_color" type="radio" value="black">
+            <label for="ras\">Brown</label>
+            <input id="radio_bear_color" type="radio" value="brown">
+            <label for="ÿellow_radio">Yellow</label>
+            <input id="radio_bear_color" type="radio" value="yellow"> 
+
+            
+
+
+
+
+
+
+        </form>
+        <br><br>
+        <p>The image and video below use absolute paths to online media. The paths includes the URL's</p>
+        <img src="bear.jpg" atl="A brown bear"/>
+        <br>
+        <br>
+        <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>
+            Video not supported
+        </video>
+        <p>The image below uses a relative path to the image</p>
+        <image src="brown_bear.png" alt="Where has the picture gone"/>
+        <p>
+        There are two more pages attached to this page. One has a relative path and the other a absolute path.
+        <br>
+        This is a <a href="additionalPage1.html">Relative Path</a>
+        <br>
+        This is an <a href="C:\Users\paulw_000\Desktop\TasTafe\Cet III\Ben\html\myweb\additionalPage2.html">Absolute Path</a>     
+        </p>
+        
+    
+    
+        </body>
+       
